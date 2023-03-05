@@ -81,7 +81,7 @@ const App = () => {
           <Route exact path='/Help' element={<Help/>}/>
         </Route>
         <Route path='/UserApp/*' element={<UserApp/>}/>
-        {role && <Route path='/AdminApp/*' element={<AdminApp/>}/>}
+         <Route path='/AdminApp/*' element={<AdminApp/>}/>
         <Route path='*' element={<NotFound/>}/>
       </Routes>:
       <Routes>
